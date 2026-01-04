@@ -33,3 +33,26 @@ com.springrest
 | POST   | /api/courses      | Add new course   |
 | PUT    | /api/courses      | Update course    |
 | DELETE | /api/courses/{id} | Delete course    |
+
+▶ Run the Application
+mvn spring-boot:run
+
+Database Table:
+
+CREATE TABLE SPRINGDATA (
+    ID NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    TITLE VARCHAR2(100),
+    DESCRIPTION VARCHAR2(255)
+);
+
+📌Sample JSON (POST)
+{
+  "title": "Spring Boot",
+  "description": "REST API Development"
+}
+
+👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/Dhanush-kumar-143
+
